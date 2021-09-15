@@ -12,3 +12,5 @@ function countAllFromTown(townLine) {
     }
     return counter;
 }
+var counter = countAllFromTown
+console.log(counter);

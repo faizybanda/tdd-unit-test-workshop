@@ -1,3 +1,7 @@
 function greet(name) {
-    return "hello," + Name;
+    
+  return "hello," + name;
+  
   }
+  var msg = ("faizal")
+  console.log(msg)

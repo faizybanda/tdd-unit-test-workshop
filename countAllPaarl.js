@@ -9,3 +9,6 @@ function countAllPaarl(string) {
     }
     return count;
 }
+
+var countAllPaarl = "CJ"
+console.log(count)

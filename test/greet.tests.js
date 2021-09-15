@@ -24,3 +24,13 @@ describe('this test' , function(){
     });
 
 });
+
+describe('the greet function' , function(){
+    it('should return "hello faizal"' , function(){
+        assert.equal("hello",(name));
+
+        assert.deepEqual([2,2],[2,2]);
+    });
+
+});
+
