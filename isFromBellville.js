@@ -1,5 +1,4 @@
-function isFromBellville(CA) {
-    return CA.startWith('M','T','W','F');
-}
-console.log(isWeeekDay('Monday'));
-console.log(isWeeekDay('january'));
+function isFromBellville(itemName) {
+    return itemName.startsWith('CY') 
+    // assert.equal('jk 55')
+   }
