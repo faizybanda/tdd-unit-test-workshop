@@ -1,16 +1,13 @@
-function countAllFromTown(townLine) {
-    let counter = 0;
-    const town = townLine.split(',');
-    for (var i=0; i<town.length; i++) {
-        const townCar = town[i];
-        if (townCar.startsWith('CL')) {
-            counter++;
+    function countAllFromTown(regNum, town) {
+        var list = regNum.split(',');
+        var counter = 0;
+        var fromTown = [];
+        for (var i = 0; i<list.length; i++) {
+         
+          if (list[i].includes(town) == true) {
+           counter++ 
+          }
+          
         }
-        else if (townCar.startsWith('CF')) {
-            counter++;
-        }
-    }
-    return counter;
-}
-var counter = countAllFromTown
-console.log(counter);
+        return counter;
+      };

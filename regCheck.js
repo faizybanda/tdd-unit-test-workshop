@@ -1,6 +1,6 @@
-function refCheck(regNo, regLocation) {
+function regCheck(regNo, regLocation) {
     return regNo.endsWith(regLocation)
-}
+};
 console.log('RG 45 HN GP');
 console.log('GHT 456 MP');
 console.log('LKG 679 EC');

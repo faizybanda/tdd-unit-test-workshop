@@ -46,4 +46,4 @@ function mostProfitableDay(salesData2) {
         }
     }
     return currentDay
-}
+};
