@@ -20,7 +20,7 @@ function mostProfitableDepartment(salesData1) {
         }
     }
     return currentDepartment
-}
+};
 
 function mostProfitableDay(salesData2) {
     const profits = {};
